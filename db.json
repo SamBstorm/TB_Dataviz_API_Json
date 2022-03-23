@@ -1,0 +1,102 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Carotte",
+      "description": "Légume orange conique",
+      "categoryId": 1,
+      "price": 3
+    },
+    {
+      "id": 2,
+      "name": "Cotelette",
+      "description": "Côte de porc",
+      "categoryId": 2,
+      "price": 2.5
+    },
+    {
+      "id": 3,
+      "name": "Rosette",
+      "description": "Boisson",
+      "categoryId": 3,
+      "price": 5
+    },
+    {
+      "id": 4,
+      "name": "Eau",
+      "description": null,
+      "price": 1,
+      "categoryId": "3"
+    },
+    {
+      "id": 5,
+      "name": "Eau pétillante",
+      "description": null,
+      "price": 1,
+      "categoryId": "3"
+    },
+    {
+      "id": 6,
+      "name": "Orange",
+      "description": null,
+      "price": 1,
+      "categoryId": "1"
+    }
+  ],
+  "productCategory": [
+    {
+      "id": 1,
+      "name": "Fruit/Légume"
+    },
+    {
+      "id": 2,
+      "name": "Viande"
+    },
+    {
+      "id": 3,
+      "name": "Boisson"
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "date": "2022-03-22 15:00:00"
+    },
+    {
+      "id": 2,
+      "date": "2022-03-23 15:00:00"
+    }
+  ],
+  "orderDetail": [
+    {
+      "id": 1,
+      "productId": 1,
+      "quantity": 10,
+      "orderId": 1
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "quantity": 4,
+      "orderId": 1
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "quantity": 1,
+      "orderId": 1
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "quantity": 4,
+      "orderId": 2
+    },
+    {
+      "id": 5,
+      "productId": 3,
+      "quantity": 1,
+      "orderId": 2
+    }
+  ]
+}
